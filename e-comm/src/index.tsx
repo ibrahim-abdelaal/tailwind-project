@@ -10,6 +10,7 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     <div className="container p-5 mx-auto">
+      <App />
     </div>
   </React.StrictMode>
 );

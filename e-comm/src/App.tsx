@@ -1,11 +1,14 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { HomePage } from './pages/homePage';
+import { NavBar } from './components/organisms/NavBar';
+import { Footer } from './components/organisms/Footer';
 
 function App() {
   return (
-    <div className="conainer h-8 bg-green-600">
-      
+    <div>
+      <NavBar />
+      <HomePage />
+      <Footer />
     </div>
   );
 }

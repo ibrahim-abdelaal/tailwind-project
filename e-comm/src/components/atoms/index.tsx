@@ -100,7 +100,7 @@ export const ProductCardIconButton: FC<IconButtonProps> = ({ name, href, textCol
 );
 
 export const CollectionButton: FC<{ text: string, children: JSX.Element }> = ({ text, children }) => (
-  <a href="#" className="text-xl flex">
+  <a href="#" className="text-xl flex justify-between items-center">
     { text }
     { children }
   </a>
