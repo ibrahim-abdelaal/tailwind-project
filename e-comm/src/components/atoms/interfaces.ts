@@ -32,9 +32,26 @@ export interface BasicImageProps {
   topRounded?: boolean;
 }
 
+export interface ClickableImageProps {
+  src: string;
+  href: string;
+  width?: string;
+  height?: string;
+  topRounded?: boolean;
+}
+
 export interface BasicInputProps {
   type: string;
   placeholder: string;
   value: string;
   onChange: Function;
+}
+
+export interface Product {
+  id: string;
+  productName: string;
+  colorRange: string[];
+  sizeRange: string[];
+  src: string;
+  href: string;
 }
